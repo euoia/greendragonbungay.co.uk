@@ -11,7 +11,8 @@ body {
 
 p {
 	color: #444449;
-	font-family: 'Gentium Basic', serif;
+	/* font-family: 'Gentium Basic', serif; */
+	font-family: 'Tahoma', serif;
 }
 
 p {
@@ -43,6 +44,7 @@ h2 {
 
 .main article h1, h2, h3, h4 {
 	font-family: 'Libre Baskerville', serif;
+	margin-bottom: 0;
 }
 
 h5 {

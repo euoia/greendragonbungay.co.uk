@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Config -----------------
-REMOTE_BASE="/var/www/james/greendragonbungay.co.uk/dev/"
+REMOTE_BASE="/var/www/james/greendragonbungay.co.uk/"
 
 # Script  ----------------
 RSYNC_FLAGS_UP="-i --compress --recursive --links --update --exclude '*.swp' --exclude '*.swo' --exclude original-assets"
