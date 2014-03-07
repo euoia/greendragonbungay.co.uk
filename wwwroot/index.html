@@ -10,14 +10,16 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
+		<!-- dev
 		<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Gentium+Basic' rel='stylesheet' type='text/css'>
-
-		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="lib/flexslider/flexslider.css">
-
         <link rel="stylesheet" href="css/main.css">
+		-->
+
+		<!-- prod (minified) -->
+        <link rel="stylesheet" href="css/gdb.css">
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -63,9 +65,9 @@
             <div class="main wrapper clearfix">
                 <article>
 					<h3>About us</h3>
-					<p><i class="icon-calendar"></i>We serve up a popular curry night every Wednesday from 6pm.</p>
-					<p><i class="icon-heart"></i>We have an active and friendly <a href="http://www.facebook.com/groups/7147703686/">facebook group</a>.</p>
-					<p><i class="icon-thumbs-up"></i>The Guardian gushes about us in their <a href="http://www.guardian.co.uk/money/2013/mar/01/lets-move-to-bungay-suffolk">Let's Move To Bungay</a> article.</p>
+					<p><i class="glyphicon glyphicon-calendar"></i>We serve up a popular curry night every Wednesday from 6pm.</p>
+					<p><i class="glyphicon glyphicon-heart"></i>We have an active and friendly <a href="http://www.facebook.com/groups/7147703686/">facebook group</a>.</p>
+					<p><i class="glyphicon glyphicon-thumbs-up"></i>The Guardian gushes about us in their <a href="http://www.guardian.co.uk/money/2013/mar/01/lets-move-to-bungay-suffolk">Let's Move To Bungay</a> article.</p>
 
 					<!--
 					<h2>What some people said</h2>
@@ -111,12 +113,17 @@
 			<span class="foot-text">Website &copy; 2014 picklebone media, thanks to Digby Fullam <a href="http://digbyfullam.wordpress.com/">digbyfullam.wordpress.com</a> for photos.</span>
         </div>
 
+		<!-- dev
 		<!-- JavaScript -->
         <script src="js/main.js"></script>
 
 		<!-- third-party JavaScript -->
         <script src="lib/jquery/dist/jquery.min.js"></script>
 		<script src="lib/flexslider/jquery.flexslider-min.js"></script>
+		-->
+
+		<!-- prod (minified) -->
+        <script src="js/gdb.js"></script>
 
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
