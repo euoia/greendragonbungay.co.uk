@@ -20,7 +20,6 @@ module.exports = function(grunt) {
       },
       js: {
         src: [
-          'wwwroot/lib/modernizr/modernizr.js',
           'wwwroot/lib/jquery/dist/jquery.min.js',
           'wwwroot/lib/flexslider/jquery.flexslider-min.js'],
         dest: 'wwwroot/js/gdb.js'
