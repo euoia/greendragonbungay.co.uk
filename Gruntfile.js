@@ -20,6 +20,7 @@ module.exports = function(grunt) {
       },
       js: {
         src: [
+          'wwwroot/lib/modernizr/modernizr.js',
           'wwwroot/lib/jquery/dist/jquery.min.js',
           'wwwroot/lib/flexslider/jquery.flexslider-min.js'],
         dest: 'wwwroot/js/gdb.js'
@@ -29,7 +30,6 @@ module.exports = function(grunt) {
       minify: {
         src: [
           'wwwroot/lib/bootstrap/dist/css/bootstrap.min.css',
-          'wwwroot/lib/css/normalize.min.css',
           'wwwroot/lib/flexslider/flexslider.css',
           'wwwroot/lib/fonts/*',
           'wwwroot/css/main.css'],
