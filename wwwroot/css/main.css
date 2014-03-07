@@ -44,11 +44,17 @@ h2 {
 	text-shadow: 2px 2px #000;
 }
 
+.page-title {
+	margin-left: 2px;
+}
+
 .page-sub-title {
 	font-size: 20px;
 	float: right;
 	text-align: center;
 	margin-top: -10px;
+	margin-right: 2px;
+}
 }
 
 .top-image-container {
