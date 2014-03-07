@@ -11,4 +11,4 @@
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3, bootstrap, jQuery, flexslider, 
+    HTML5, CSS3, bootstrap, jQuery, flexslider.
