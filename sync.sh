@@ -1,4 +1,5 @@
 #!/bin/bash
+grunt
 
 # Config -----------------
 REMOTE_BASE="/var/www/james/greendragonbungay.co.uk/"
