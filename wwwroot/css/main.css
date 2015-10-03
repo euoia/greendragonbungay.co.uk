@@ -13,6 +13,11 @@ body {
 	background: linear-gradient(#2A572E, #285f2e); /* Standard syntax */
 }
 
+iframe {
+	border: 0;
+	width: 100%;
+}
+
 i {
 	margin-right: 5px;
 }
@@ -56,23 +61,12 @@ h2 {
 	margin-top: -10px;
 	margin-right: 0px;
 }
-}
 
 .top-image-container {
 }
 
-h1, h2 {
-	font-family: 'Libre Baskerville', serif;
-	text-align: center;
-}
-
-h1 {
-	font-size: 60px;
-	line-height: 80%;
-}
-
 h2 {
-	font-size: 20px;
+	font-size: 25px;
 }
 
 h3 {
@@ -82,7 +76,7 @@ h3 {
 	color: #888;
 }
 
-.main article h1, h2, h3, h4 {
+.main article h2, h3, h4 {
 	font-family: 'Libre Baskerville', serif;
 }
 
@@ -255,10 +249,6 @@ nav a:hover {
     MOBILE: Main
    ============== */
 
-.main article h1 {
-    font-size: 2em;
-}
-
 .main aside {
     color: white;
     padding: 0px 5% 10px;
@@ -281,10 +271,6 @@ nav a:hover {
    Media Queries
    ========================================================================== */
 .co-uk {
-	display: none;
-}
-
-.page-sub-title {
 	display: none;
 }
 
