@@ -50,11 +50,15 @@ h2 {
 	text-shadow: 2px 2px #000;
 }
 
-.page-title {
+h1, .page-title {
 	margin-left: 5px;
+	margin-top: 0;
+	margin-bottom: 0;
+	display: inline;
+	font-size: 25px;
 }
 
-.page-sub-title {
+h2, .page-sub-title {
 	font-size: 20px;
 	float: right;
 	text-align: center;
@@ -82,6 +86,8 @@ h3 {
 
 h3 {
 	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 10px;
 }
 
 .beer {
@@ -262,129 +268,56 @@ nav a:hover {
     padding-top: 20px;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+.co-uk {
+	display: inline;
+}
 
+h1, .page-title {
+	font-size: 40px;
+	margin: 0;
+	display: inline;
+}
+
+h2, .page-sub-title {
+	line-height: 0.7em;
+	display: block;
+	margin-top: 0px;
+}
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-.co-uk {
-	display: none;
-}
 
-.page-title {
-	font-size: 25px;
-	float: left;
-}
-
-@media only screen and (min-width: 320px) {
-}
-
-@media only screen and (min-width: 480px) {
-	.main-container {
-		width: 100%;
-	}
-/* ====================
-    INTERMEDIATE: Menu
-   ==================== */
-
-    nav a {
-        float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
-        margin-bottom: 0;
-    }
-
-    nav li:first-child a {
-        margin-left: 0;
-    }
-
-    nav li:last-child a {
-        margin-right: 0;
-    }
-
-/* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
-
-    nav ul li {
-        display: inline;
-    }
-
-    .oldie nav a {
-        margin: 0 0.7%;
-    }
-
-}
-
-@media only screen and (min-width: 580px) {
-	.page-title {
-		margin-left: 0px;
-	}
-
-	.page-sub-title {
-		display: block;
-	}
-}
-
-@media only screen and (min-width: 768px) {
-	.main-container {
-		width: 100%;
-	}
-
-	.page-title {
-		font-size: 40px;
-	}
-
-/* ====================
-    WIDE: CSS3 Effects
-   ==================== */
-
-    .header-container,
-    .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
-    }
-
-/* ============
-    WIDE: Menu
-   ============ */
-
-    .title {
-        float: left;
-    }
-
-    nav {
-        float: right;
-        width: 38%;
-    }
-
-/* ============
-    WIDE: Main
-   ============ */
-
-    .main article {
-        float: left;
-        width: 100%;
-    }
-
-    .main aside {
-        float: right;
-        width: 28%;
-    }
-}
-
-@media only screen and (min-width: 800px) {
+/**
+ * Really small screens.
+ */
+@media only screen and (max-width: 800px) {
 	.co-uk {
-		display: inline;
+		display: none;
+	}
+
+	h1, .page-title {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		font-size: 30px;
+	}
+
+	h2, .page-sub-title {
+		position: absolute;
+		top: 12px;
+		left: 0;
+		width: 100%;
+		line-height: 1.6em;
+		font-size: 20px;
 	}
 
 	.page-sub-title {
-		display: block;
+		line-height: 1.6em;
+		font-size: 20px;
 	}
 }
 
@@ -401,12 +334,6 @@ nav a:hover {
 		font-size: 20px;
         margin: 0 100px 0px 80px;
     }
-
-	h3 {
-		font-size: 30px;
-		margin-bottom: 10px;
-	}
-
 }
 
 /* ==========================================================================
@@ -545,4 +472,5 @@ nav a:hover {
 /* Flexslider overrides */
 .flexslider {
 	border: 0;
+	margin-bottom: 30px;
 }
