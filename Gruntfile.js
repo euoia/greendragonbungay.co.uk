@@ -28,6 +28,7 @@ module.exports = function(grunt) {
     cssmin: {
       minify: {
         src: [
+          'wwwroot/lib/reset-css/reset.css',
           'wwwroot/lib/bootstrap/dist/css/bootstrap.min.css',
           'wwwroot/lib/flexslider/flexslider.css',
           'wwwroot/lib/fonts/*',
@@ -36,14 +37,8 @@ module.exports = function(grunt) {
       }
     },
     watch: {
-      gruntfile: {
-        files: '<%= jshint.gruntfile.src %>',
-        tasks: ['jshint:gruntfile']
-      },
-      lib_test: {
-        files: '<%= jshint.lib_test.src %>',
-        tasks: ['jshint:lib_test', 'nodeunit']
-      }
+      files: ['<%= cssmin.minify.src %>'],
+      tasks: ['cssmin']
     }
   });
 

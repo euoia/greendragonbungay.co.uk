@@ -284,6 +284,11 @@ h2, .page-sub-title {
 	margin-top: 0px;
 }
 
+.wrapper {
+	font-size: 20px;
+	margin: 0 100px 0px 80px;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -291,7 +296,7 @@ h2, .page-sub-title {
 /**
  * Really small screens.
  */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 840px) {
 	.co-uk {
 		display: none;
 	}
@@ -325,15 +330,6 @@ h2, .page-sub-title {
 	.main-container {
 		width: 100%;
 	}
-
-/* ===============
-    Maximal Width
-   =============== */
-
-    .wrapper {
-		font-size: 20px;
-        margin: 0 100px 0px 80px;
-    }
 }
 
 /* ==========================================================================

@@ -17,6 +17,7 @@
   "license": "BSD",
   "gitHead": "5d8c6d1dbe21dd879de046ce09a4218165b9bbf4",
   "devDependencies": {
+    "bower": "^1.5.3",
     "grunt": "^0.4.5",
     "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-cssmin": "~0.9.0",
