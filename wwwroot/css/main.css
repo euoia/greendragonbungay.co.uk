@@ -193,6 +193,7 @@ body {
 
 .wrapper {
     margin: 0 5%;
+	font-size: 20px;
 }
 
 /* ===================
@@ -282,11 +283,6 @@ h2, .page-sub-title {
 	line-height: 0.7em;
 	display: block;
 	margin-top: 0px;
-}
-
-.wrapper {
-	font-size: 20px;
-	margin: 0 100px 0px 80px;
 }
 
 /* ==========================================================================
