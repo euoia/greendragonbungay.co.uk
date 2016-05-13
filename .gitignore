@@ -1,5 +1,9 @@
 # Based on example: https://help.github.com/articles/ignoring-files
 
+# Node.js
+###################
+/node_modules
+
 # Compiled source #
 ###################
 *.com
