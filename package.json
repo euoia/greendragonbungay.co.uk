@@ -7,7 +7,8 @@
     "doc": "doc"
   },
   "scripts": {
-    "build": "grunt"
+    "build": "grunt",
+    "upload": "./scripts/upload"
   },
   "repository": {
     "type": "git",
