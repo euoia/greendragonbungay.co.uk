@@ -14,7 +14,7 @@
     "url": "https://github.com/euoia/greendragonbungay.co.uk.git"
   },
   "author": "James Pickard",
-  "license": "BSD",
+  "license": "ISC",
   "gitHead": "5d8c6d1dbe21dd879de046ce09a4218165b9bbf4",
   "devDependencies": {
     "bower": "^1.7.9",
