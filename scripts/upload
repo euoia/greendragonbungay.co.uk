@@ -5,7 +5,7 @@ npm run build
 REMOTE_BASE="/var/www/james/greendragonbungay.co.uk/"
 
 # Script  ----------------
-RSYNC_FLAGS_UP="-i --compress --recursive --links --update --exclude '*.swp' --exclude '*.swo' --exclude original-assets"
+RSYNC_FLAGS_UP="-i --compress --recursive --links --update --exclude '*.swp' --exclude '*.swo' --exclude original-assets --exclude .git"
 RSYNC_FLAGS_DOWN="-i --recursive --copy-links --update --exclude '*.swp' --exclude '*.swo' --exclude CVS"
 
 THIS_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
