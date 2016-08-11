@@ -1,16 +1,24 @@
 #!/bin/bash
+
+set -e
+set -x
+
+echo "Building..."
 npm run build
+
+echo "Deploying..."
 
 # Config -----------------
 REMOTE_BASE="/var/www/james/greendragonbungay.co.uk/"
+REMOTE_SERVER="aioue"
 
 # Script  ----------------
 RSYNC_FLAGS_UP="-i --compress --recursive --links --update --exclude '*.swp' --exclude '*.swo' --exclude original-assets --exclude .git"
 RSYNC_FLAGS_DOWN="-i --recursive --copy-links --update --exclude '*.swp' --exclude '*.swo' --exclude CVS"
 
-THIS_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-PRJ_NAME=$(basename $THIS_DIR)
-cd $THIS_DIR
+# Modify this if the upload script moves relative to the project directory.
+PROJECT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd .. && pwd )"
+cd $PROJECT_DIR
 
 # Upload changes.
-rsync $RSYNC_FLAGS_UP $THIS_DIR/ aioue:$REMOTE_BASE
+rsync $RSYNC_FLAGS_UP $PROJECT_DIR/ ${REMOTE_SERVER}:${REMOTE_BASE}
