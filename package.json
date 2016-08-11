@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "grunt",
-    "upload": "./scripts/upload"
+    "deploy": "./scripts/deploy"
   },
   "repository": {
     "type": "git",
