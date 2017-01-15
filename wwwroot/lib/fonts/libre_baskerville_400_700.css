@@ -2,11 +2,11 @@
   font-family: 'Libre Baskerville';
   font-style: normal;
   font-weight: 400;
-  src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(http://themes.googleusercontent.com/static/fonts/librebaskerville/v2/pR0sBQVcY0JZc_ciXjFsKwAUTJOA6-irsSazDq377BE.ttf) format('truetype');
+  src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(https://themes.googleusercontent.com/static/fonts/librebaskerville/v2/pR0sBQVcY0JZc_ciXjFsKwAUTJOA6-irsSazDq377BE.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Libre Baskerville';
   font-style: normal;
   font-weight: 700;
-  src: local('Libre Baskerville Bold'), local('LibreBaskerville-Bold'), url(http://themes.googleusercontent.com/static/fonts/librebaskerville/v2/kH7K4InNTm7mmOXXjrA5v_gg4qM5Rpmu0ASAribBgqE.ttf) format('truetype');
+  src: local('Libre Baskerville Bold'), local('LibreBaskerville-Bold'), url(https://themes.googleusercontent.com/static/fonts/librebaskerville/v2/kH7K4InNTm7mmOXXjrA5v_gg4qM5Rpmu0ASAribBgqE.ttf) format('truetype');
 }
