@@ -33,7 +33,7 @@ module.exports = function(grunt) {
           'wwwroot/lib/flexslider/flexslider.css',
           'wwwroot/lib/fonts/*',
           'wwwroot/css/main.css'],
-        dest: 'wwwroot/css/gdb.css'
+        dest: 'wwwroot/css/gdb-20170115.css'
       }
     },
     watch: {
