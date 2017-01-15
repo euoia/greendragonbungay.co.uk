@@ -13,7 +13,7 @@ REMOTE_BASE="/var/www/james/greendragonbungay.co.uk/"
 REMOTE_SERVER="aioue2"
 
 # Script  ----------------
-RSYNC_FLAGS_UP="-i --compress --recursive --links --update --exclude '*.swp' --exclude '*.swo' --exclude original-assets --exclude .git"
+RSYNC_FLAGS_UP="-i --compress --recursive --links --update --exclude '*.swp' --exclude '*.swo' --exclude original-assets --exclude .git --exclude assets"
 RSYNC_FLAGS_DOWN="-i --recursive --copy-links --update --exclude '*.swp' --exclude '*.swo' --exclude CVS"
 
 # Modify this if the upload script moves relative to the project directory.
