@@ -4,127 +4,141 @@
    ========================================================================== */
 
 body {
-	width: 100%;
-	color: #192A33;
-	/* background-color: #2A572E; /* Green Dragon Green */
-	background: -webkit-linear-gradient(#2A572E, #285f2e); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#2A572E, #285f2e); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#2A572E, #285f2e); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#2A572E, #285f2e); /* Standard syntax */
-}
-
-iframe {
-	border: 0;
-	width: 100%;
-}
-
-i {
-	margin-right: 5px;
+  width: 100%;
+  color: #192a33;
+  /* background-color: #2A572E; /* Green Dragon Green */
+  background: -webkit-linear-gradient(
+    #2a572e,
+    #285f2e
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#2a572e, #285f2e); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(
+    #2a572e,
+    #285f2e
+  ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#2a572e, #285f2e); /* Standard syntax */
 }
 
 p {
-	color: #444449;
-	/* font-family: 'Gentium Basic', serif; */
-	font-family: 'Tahoma', serif;
-	margin-top: 0;
+  line-height: 30px;
+}
+
+iframe {
+  border: 0;
+  width: 100%;
+}
+
+i {
+  margin-right: 15px;
+}
+
+p {
+  color: #444449;
+  /* font-family: 'Gentium Basic', serif; */
+  font-family: 'Tahoma', serif;
+  margin-top: 0;
 }
 
 h2 {
-	margin-top: 1.5em;
+  margin-top: 1.5em;
 }
 
 .fb-like {
-	margin-top: 1em;
+  margin-top: 1em;
 }
 
 .pre-header {
-	font-variant: small-caps;
-	font-family: 'Libre Baskerville', serif;
-	color: #eee;
-	max-width: 940px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 20px;
-	margin-bottom: 10px;
-	height: 60px;
-	text-shadow: 2px 2px #000;
+  font-variant: small-caps;
+  font-family: 'Libre Baskerville', serif;
+  color: #eee;
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 60px;
+  text-shadow: 2px 2px #000;
 }
 
-h1, .page-title {
-	margin-left: 5px;
-	margin-top: 0;
-	margin-bottom: 0;
-	display: inline;
-	font-size: 25px;
+h1,
+.page-title {
+  margin-left: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline;
+  font-size: 25px;
 }
 
-h2, .page-sub-title {
-	font-size: 20px;
-	float: right;
-	text-align: center;
-	margin-top: -10px;
-	margin-right: 0px;
+h2,
+.page-sub-title {
+  font-size: 20px;
+  float: right;
+  text-align: center;
+  margin-top: -10px;
+  margin-right: 0px;
 }
 
 .top-image-container {
 }
 
 h2 {
-	font-size: 25px;
+  font-size: 25px;
 }
 
 h3 {
-	font-size: 25px;
-	margin-bottom: 1em;
-	margin-top: 1.5em;
-	color: #888;
+  font-size: 25px;
+  margin-bottom: 1em;
+  margin-top: 1.5em;
+  color: #888;
 }
 
-.main article h2, h3, h4 {
-	font-family: 'Libre Baskerville', serif;
+.main article h2,
+h3,
+h4 {
+  font-family: 'Libre Baskerville', serif;
 }
 
 h3 {
-	font-weight: bold;
-	font-size: 30px;
-	margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
 .beer {
-	font-weight: bold;
-	color: #3e3e3e;
+  font-weight: bold;
+  color: #3e3e3e;
 }
 
 p {
-	-webkit-margin-after: 1em;
-	-webkit-margin-start: 0;
-	-webkit-margin-end: 0;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
 }
 
 .foot-text {
-	color: #aaaaaa;
-	font-size: 10px;
-	margin-right: 10px;
+  color: #aaaaaa;
+  font-size: 10px;
+  margin-right: 10px;
 }
 
 .main-container {
-	max-width: 940px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 0px;
-	padding-bottom: 20px;
-	margin-top: 10px;
-	background-color: #eaeaea;
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  background-color: #eaeaea;
 }
 
 .top-image {
-	margin-left: 0;
-	margin-right: 0;
-	margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
 }
 
 .top-image img {
-	width: 100%;
+  width: 100%;
 }
 
 /* end of jpickard mods */
@@ -134,66 +148,64 @@ button,
 input,
 select,
 textarea {
-    color: #222;
+  color: #222;
 }
 
 body {
-    font-size: 1em;
-    line-height: 1.4;
+  font-size: 1em;
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 .chromeframe {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
-
 
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+  font: 16px/26px Helvetica, Helvetica Neue, Arial;
 }
 
 .wrapper {
-    margin: 0 5%;
-	font-size: 20px;
+  margin: 0 5%;
+  font-size: 20px;
 }
 
 /* ===================
@@ -201,24 +213,24 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+  border-bottom: 20px solid #e44d26;
 }
 
 .footer-container,
 .main aside {
-    border-top: 0 solid #e44d26;
-	text-align: right;
-	line-height: 15px;
+  border-top: 0 solid #e44d26;
+  text-align: right;
+  line-height: 15px;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #192A33;
+  background: #192a33;
 }
 
 .title {
-    color: white;
+  color: white;
 }
 
 /* ==============
@@ -226,30 +238,30 @@ body {
    ============== */
 
 nav ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 nav a {
-    display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
+  display: block;
+  margin-bottom: 10px;
+  padding: 15px 0;
 
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
 
-    color: white;
-    background: #e44d26;
+  color: white;
+  background: #e44d26;
 }
 
 nav a:hover,
 nav a:visited {
-    color: white;
+  color: white;
 }
 
 nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* ==============
@@ -257,8 +269,8 @@ nav a:hover {
    ============== */
 
 .main aside {
-    color: white;
-    padding: 0px 5% 10px;
+  color: white;
+  padding: 0px 5% 10px;
 }
 
 /* ===============
@@ -266,27 +278,29 @@ nav a:hover {
    =============== */
 
 .ie7 .title {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .co-uk {
-	display: inline;
+  display: inline;
 }
 
-h1, .page-title {
-	font-size: 40px;
-	margin: 0;
-	display: inline;
+h1,
+.page-title {
+  font-size: 40px;
+  margin: 0;
+  display: inline;
 }
 
-h2, .page-sub-title {
-	line-height: 0.7em;
-	display: block;
-	margin-top: 0px;
+h2,
+.page-sub-title {
+  line-height: 0.7em;
+  display: block;
+  margin-top: 0px;
 }
 
 .social {
-	line-height: 2em;
+  line-height: 2em;
 }
 
 /* ==========================================================================
@@ -297,39 +311,41 @@ h2, .page-sub-title {
  * Really small screens.
  */
 @media only screen and (max-width: 840px) {
-	.co-uk {
-		display: none;
-	}
+  .co-uk {
+    display: none;
+  }
 
-	h1, .page-title {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		text-align: center;
-		margin: 0;
-		font-size: 30px;
-	}
+  h1,
+  .page-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+  }
 
-	h2, .page-sub-title {
-		position: absolute;
-		top: 12px;
-		left: 0;
-		width: 100%;
-		line-height: 1.6em;
-		font-size: 20px;
-	}
+  h2,
+  .page-sub-title {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 100%;
+    line-height: 1.6em;
+    font-size: 20px;
+  }
 
-	.page-sub-title {
-		line-height: 1.6em;
-		font-size: 20px;
-	}
+  .page-sub-title {
+    line-height: 1.6em;
+    font-size: 20px;
+  }
 }
 
 @media only screen and (min-width: 1140px) {
-	.main-container {
-		width: 100%;
-	}
+  .main-container {
+    width: 100%;
+  }
 }
 
 /* ==========================================================================
@@ -337,61 +353,61 @@ h2, .page-sub-title {
    ========================================================================== */
 
 .ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    *text-indent: -9999px;
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
 }
 
 .ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 150%;
+  content: '';
+  display: block;
+  width: 0;
+  height: 150%;
 }
 
 .hidden {
-    display: none !important;
-    visibility: hidden;
+  display: none !important;
+  visibility: hidden;
 }
 
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
 }
 
 .invisible {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: ' ';
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 .clearfix {
-    *zoom: 1;
+  *zoom: 1;
 }
 
 /* ==========================================================================
@@ -399,74 +415,74 @@ h2, .page-sub-title {
    ========================================================================== */
 
 @media print {
-    * {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
+  * {
+    background: transparent !important;
+    color: #000 !important; /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
 
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
+  a[href]:after {
+    content: ' (' attr(href) ')';
+  }
 
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
+  abbr[title]:after {
+    content: ' (' attr(title) ')';
+  }
 
-    /*
+  /*
      * Don't show links for images, or javascript/internal links
      */
 
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
+  .ir a:after,
+  a[href^='javascript:']:after,
+  a[href^='#']:after {
+    content: '';
+  }
 
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
 
-    thead {
-        display: table-header-group; /* h5bp.com/t */
-    }
+  thead {
+    display: table-header-group; /* h5bp.com/t */
+  }
 
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
 
-    img {
-        max-width: 100% !important;
-    }
+  img {
+    max-width: 100% !important;
+  }
 
-    @page {
-        margin: 0.5cm;
-    }
+  @page {
+    margin: 0.5cm;
+  }
 
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
 
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
 }
 
 /* Flexslider overrides */
 .flexslider {
-	border: 0;
-	margin-bottom: 30px;
+  border: 0;
+  margin-bottom: 30px;
 }
