@@ -10,7 +10,7 @@ echo "Deploying..."
 
 # Config -----------------
 REMOTE_BASE="/var/www/james/greendragonbungay.co.uk/"
-REMOTE_SERVER="greendragonbungay"
+REMOTE_SERVER="www.greendragonbungay.co.uk"
 
 # Script  ----------------
 RSYNC_FLAGS_UP="-i --compress --recursive --links --update --exclude '*.swp' --exclude '*.swo' --exclude original-assets --exclude .git --exclude assets"
