@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Green Dragon Takeaway</title>
+    <meta
+      name="description"
+      content="A takeaway service for the Green Dragon in Bungay."
+    />
+    <meta name="viewport" content="width=device-width" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+      // https://cookieconsent.insites.com/download/
+      window.addEventListener("load", function() {
+        window.cookieconsent.initialise({
+          palette: {
+            popup: {
+              background: "#000"
+            },
+            button: {
+              background: "#f1d600"
+            }
+          }
+        });
+      });
+    </script>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/apple-touch-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/android-icon-192x192.png"
+    />
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script|Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/takeaway.css" />
+  </head>
+  <body>
+    <div class="title">
+      Green Dragon Takeaway Service
+    </div>
+
+    <div class="instructions">
+      <ol>
+        <li>Select beer</li>
+        <li>Provide your name</li>
+        <li>Pay now or when you collect</li>
+      </ol>
+    </div>
+
+    <form action="http://localhost:3000/takeaway" method="POST" onsubmit="return checkForm(this)">
+      <div class="controls">
+        <div class="header">1. Select beer</div>
+        <table class="beer">
+          <tr>
+            <td>
+              <input type="hidden" id="chaucer" name="chaucer" value="0" />
+              <div class="button-container">
+                <button type="button" onclick="removeBeer('chaucer')">
+                  <i class="fa fa-minus"></i>
+                </button>
+                <button type="button" onclick="addBeer('chaucer')">
+                  <i class="fa fa-plus"></i>
+                </button>
+              </div>
+            </td>
+            <td><span class="chaucerCount"></span></td>
+            <td>Chaucer Ale 1.5 L</td>
+          </tr>
+          <tr>
+            <td>
+              <input type="hidden" id="bridge" name="bridge" value="0" />
+              <div class="button-container">
+                <button type="button" onclick="removeBeer('bridge')">
+                  <i class="fa fa-minus"></i>
+                </button>
+                <button type="button" onclick="addBeer('bridge')">
+                  <i class="fa fa-plus"></i>
+                </button>
+              </div>
+            </td>
+            <td><span class="bridgeCount"></span></td>
+            <td>Bridge Street 1.5 L</td>
+          </tr>
+          <tr>
+            <td>
+              <input type="hidden" id="gold" name="gold" value="0" />
+              <div class="button-container">
+                <button type="button" onclick="removeBeer('gold')">
+                  <i class="fa fa-minus"></i>
+                </button>
+                <button type="button" onclick="addBeer('gold')">
+                  <i class="fa fa-plus"></i>
+                </button>
+              </div>
+            </td>
+            <td><span class="goldCount"></span></td>
+            <td>Dragon Gold 1.5 L</td>
+          </tr>
+          <tr>
+            <td>
+              <input type="hidden" id="mild" name="mild" value="0" />
+              <div class="button-container">
+                <button type="button" onclick="removeBeer('mild')">
+                  <i class="fa fa-minus"></i>
+                </button>
+                <button type="button" onclick="addBeer('mild')">
+                  <i class="fa fa-plus"></i>
+                </button>
+              </div>
+            </td>
+            <td><span class="mildCount"></span></td>
+            <td>Strong Mild 1.5 L</td>
+          </tr>
+        </table>
+
+        <div class="price">£<span class="price-amt"></span></div>
+
+        <div class="header">2. My name is…<div>
+        <div class="name-input">
+          <input type="text" id="fname" name="fname" required />
+        </div>
+
+        <div class="header">3. I want to pay…</div>
+        <div class="name-input">
+          <div class="radio-option">
+              <input type="radio" name="pay_by" id="cash" value="cash" />
+              <label for="cash">When I collect</label>
+          </div>
+
+          <div class="radio-option">
+            <input type="radio" id="card" name="pay_by" value="card" />
+            <label for="card">With my card now</label>
+          </div>
+        </div>
+
+        <div class="place-order">
+          <input type="submit" value="Place Order"></input>
+        </div>
+
+        <div class="helper-text">
+          If you need help call 01986 892681.
+        </div>
+      </div>
+    </form>
+
+    <script>
+      (function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function() {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-39115174-1", "auto");
+      ga("require", "linkid");
+      ga("send", "pageview");
+    </script>
+
+    <script src="js/takeaway.js"></script>
+  </body>
+</html>
