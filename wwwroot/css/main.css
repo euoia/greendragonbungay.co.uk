@@ -491,3 +491,8 @@ h2,
   border: 0;
   margin-bottom: 30px;
 }
+
+.page-title a {
+  font-decoration: none;
+  color: inherit;
+}
