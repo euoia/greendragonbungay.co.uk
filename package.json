@@ -19,7 +19,7 @@
   "gitHead": "5d8c6d1dbe21dd879de046ce09a4218165b9bbf4",
   "devDependencies": {
     "bower": ">=1.8.8",
-    "grunt": "^1.0.4",
+    "grunt": "^1.5.3",
     "grunt-contrib-concat": "1.0.1",
     "grunt-contrib-cssmin": "1.0.1",
     "grunt-contrib-uglify": "1.0.1",
