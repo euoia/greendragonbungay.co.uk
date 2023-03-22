@@ -1,0 +1,11 @@
+.banner-image {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
